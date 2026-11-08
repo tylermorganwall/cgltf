@@ -1,13 +1,12 @@
 #define CGLTF_IMPLEMENTATION
 #include <cgltf.h>
-#include <stdio.h>
 #include <string.h>
 
 int main(void) {
     const char json[] = "{\"asset\":{\"version\":\"2.0\"},"
         "\"nodes\":[{\"translation\":[1,2,3]}],"
         "\"scenes\":[{\"nodes\":[0]}],\"scene\":0}";
-    cgltf_options options = {cgltf_file_type_invalid};
+    cgltf_options options = {0};
     cgltf_data *data = NULL;
     cgltf_float transform[16];
     if (cgltf_parse(&options, json, strlen(json), &data) != cgltf_result_success) {
@@ -23,6 +22,5 @@ int main(void) {
         return 3;
     }
     cgltf_free(data);
-    puts("cgltf parse, validation, and node transform passed.");
     return 0;
 }
