@@ -1,2 +1,4 @@
 ^cran-comments\.md$
 ^cran-audit\.md$
+^\.github$
+^changes-summary\.txt$
