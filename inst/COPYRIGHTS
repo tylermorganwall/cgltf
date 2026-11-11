@@ -1,3 +1,7 @@
+Component: R package code and documentation (excluding the vendored library)
+Copyright: 2026 Tyler Morgan-Wall
+License: MIT; see package LICENSE.
+
 File: include/cgltf.h
 Copyright: 2018-2021 Johannes Kuhlmann
-License: MIT; see package LICENSE and the full notice in include/cgltf.h.
+License: MIT; see the full notice in include/cgltf.h.

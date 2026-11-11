@@ -4,11 +4,12 @@ Title: Header-Only Library for Loading 'glTF' Models
 Version: 1.15.0-0
 Authors@R: c(
     person("Tyler", "Morgan-Wall", email = "tylermw@gmail.com",
-        role = c("aut", "cre"),
-        comment = c(ORCID = "0000-0002-3131-3814")),
+        role = c("aut", "cre", "cph"),
+        comment = c(ORCID = "0000-0002-3131-3814",
+            "R package code and documentation")),
     person("Johannes", "Kuhlmann", role = c("aut", "cph"),
         comment = "Author of the bundled cgltf library"))
-Description: Provides the header-only 'cgltf' 'C' library for reading
+Description: Provides the header-only 'cgltf' C library for reading
     'glTF' (Graphics Library Transmission Format) 3D models and their binary
     'GLB' representation <https://github.com/jkuhlmann/cgltf>.
     Supports scene hierarchies, mesh data, materials, skins, morph targets,
