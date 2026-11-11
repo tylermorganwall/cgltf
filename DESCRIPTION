@@ -1,7 +1,7 @@
 Package: cgltf
 Type: Package
 Title: Header-Only Library for Loading 'glTF' Models
-Version: 1.15.0-1
+Version: 1.15.0-0
 Authors@R: c(
     person("Tyler", "Morgan-Wall", email = "tylermw@gmail.com",
         role = c("aut", "cre"),
