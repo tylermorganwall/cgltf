@@ -3,7 +3,7 @@
 #define CGLTF_IMPLEMENTATION
 #include "../inst/include/cgltf.h"
 
-SEXP gltfheader_check(void) {
+SEXP cgltf_check(void) {
     const char json[] = "{\"asset\":{\"version\":\"2.0\"},"
         "\"nodes\":[{\"translation\":[1,2,3]}],"
         "\"scenes\":[{\"nodes\":[0]}],\"scene\":0}";

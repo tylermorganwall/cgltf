@@ -2,3 +2,15 @@
 ^cran-audit\.md$
 ^\.github$
 ^changes-summary\.txt$
+
+^dev$
+^for_codex$
+^README_files$
+^[^/]+[.]tar[.](gz|bz2|xz)$
+^.*[.]Rcheck($|/)
+(^|/)[.]github$
+^[.]vscode$
+^tools$
+^air[.]toml$
+^[^/]+[.]Rproj$
+^[.]Rproj[.]user$

@@ -1,3 +1,3 @@
-library(gltfheader)
+library(cgltf)
 
-stopifnot(gltfheader_test())
+stopifnot(cgltf_test())

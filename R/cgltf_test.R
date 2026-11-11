@@ -6,14 +6,14 @@
 #' @return A logical scalar: \code{TRUE} if all checks pass, otherwise
 #'   \code{FALSE}.
 #' @export
-#' @useDynLib gltfheader, .registration = TRUE, .fixes = "C_"
+#' @useDynLib cgltf, .registration = TRUE, .fixes = "C_"
 #' @details
 #' Calls a small C routine compiled against the bundled header when the package
 #' is installed. The checks also verify that malformed JSON is rejected.
 #' No compiler is needed to run this function in an installed package.
 #' @examples
 #' # Check parsing and transformations for a scene with a translated node.
-#' stopifnot(gltfheader_test())
-gltfheader_test <- function() {
-  .Call(C_gltfheader_check)
+#' stopifnot(cgltf_test())
+cgltf_test <- function() {
+  .Call(C_cgltf_check)
 }
